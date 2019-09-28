@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker build -t cluster-cloudera . && sudo docker run cluster-cloudera && cd Cloudera_Cluster_Dockers && ./build.sh && ./up.sh;
+sudo docker build -t cluster-cloudera . && sudo docker run -p 7180:7180 cluster-cloudera 
