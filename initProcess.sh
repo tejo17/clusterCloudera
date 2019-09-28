@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo docker build -t clusterCloudera .
-sudo docker run clusterCloudera
+sudo docker build -t cluster-cloudera .
+sudo docker run cluster-cloudera
