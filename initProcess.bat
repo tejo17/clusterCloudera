@@ -1,3 +1,4 @@
+@echo off
 echo Empaquetando Docker!!!!
 
 docker build -t cluster-cloudera . 
